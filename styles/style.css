@@ -57,7 +57,7 @@ html, body {
 
 .homepage {
     margin: 0 auto;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -157,7 +157,7 @@ html, body {
 }
 
 .menu_btn img , .theme_btn img {
-    width: 35px;
+    width: 25px;
 }
 
 .menu_btn , .theme_btn {
@@ -170,7 +170,7 @@ html, body {
 
 .about-container {
     margin: 10px 0;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -257,7 +257,6 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
 }
 
 .services_card {
@@ -592,6 +591,8 @@ footer {
         width: 100px;
     }
     .homepage {
+        margin-top: 50px;
+        height: 100vh;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
@@ -630,6 +631,7 @@ footer {
 
 .about-container {
     height: 100vh;
+    margin-top: 450px;
 }
 .about-top-container {
     flex-direction: column;
@@ -647,10 +649,10 @@ footer {
 
 .about-stat-container {
     margin-top: 20px;
-    height: 100%;
-    /* height: 350px; */
+    min-height: 100%;
     flex-wrap: wrap;
     border-radius: 0;
+    margin: 50px 0;
 }
 
 .stat {
@@ -663,7 +665,7 @@ footer {
 
 .services-container {
     height: 100%;
-    margin-top: 350px; /* fix */
+    margin-top: 450px;
 }
 
 .services_card {
@@ -767,6 +769,6 @@ footer {
             margin: 20px 0;
         }
         footer {
-            padding-bottom: 60px; 
+            padding-bottom: 60px;
         }
     }
