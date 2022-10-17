@@ -265,7 +265,7 @@ html, body {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     background: #FFF1EE;
     transition: all 0.3s ease-in-out;
 }
